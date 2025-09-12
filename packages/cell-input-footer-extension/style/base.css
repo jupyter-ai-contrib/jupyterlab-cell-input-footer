@@ -4,61 +4,60 @@
     https://jupyterlab.readthedocs.io/en/stable/developer/css.html
 */
 .jp-cellfooter {
-    margin-left: calc(8px + var(--jp-cell-prompt-width));
-    border-top: 0px;
-    border-bottom: var(--jp-border-width);
-    border-left: var(--jp-border-width);
-    border-right: var(--jp-border-width);
-    border-radius: 0;
-    border-color: var(--jp-toolbar-border-color);
-    border-style: solid;
-    position: relative;
-    line-height: 10px;
-  }
-  
-  .jp-cellfooter .jp-cellfooter-toolbar {
-    background-color: var(--jp-cell-editor-background);
-    border-radius: 0px;
-    box-shadow: none;
-    width: 100%;
-    min-height: 0px !important;
-    padding: 0px;
-    border: 0px;
-    height: 100%;
-  }
-  
-  .jp-cellfooter .jp-cellfooter-toolbar .jp-Toolbar-item {
-    border-radius: 0px;
-  }
-  
-  .jp-cellfooter .jp-cellfooter-toolbar .jp-cell-footer-toolbar-text {
-    border-radius: 0px;
-    font-size: x-small;
-    color: var(--jp-ui-font-color2);
-    margin-right: 5px;
-  }
-  
-  .jp-cellfooter .jp-cellfooter-toolbar .jp-ToolbarButtonComponent {
-    margin: 0px;
-    color: var(--jp-ui-font-color2);
-    font-size: x-small;
-    line-height: 10px;
-    border-radius: 0px;
-  }
-  
-  .jp-cellfooter .jp-cellfooter-toolbar .jp-ToolbarButtonComponent-label {
-    line-height: 10px;
-  }
-  
-  .jp-cellfooter .jp-cellfooter-toolbar .jp-Toolbar-Icon {
-    width: 21px;
-    height: 21px;
-    line-height: 10px;
-  }
-  
-  .jp-cellfooter .jp-cellfooter-toolbar .jp-Toolbar-Icon > svg {
-    width: 16px;
-    height: 16px;
-    margin: auto;
-  }
-  
+  margin-left: calc(8px + var(--jp-cell-prompt-width));
+  border-top: 0px;
+  border-bottom: var(--jp-border-width);
+  border-left: var(--jp-border-width);
+  border-right: var(--jp-border-width);
+  border-radius: 0;
+  border-color: var(--jp-toolbar-border-color);
+  border-style: solid;
+  position: relative;
+  line-height: 10px;
+}
+
+.jp-cellfooter .jp-cellfooter-toolbar {
+  background-color: var(--jp-cell-editor-background);
+  border-radius: 0px;
+  box-shadow: none;
+  width: 100%;
+  min-height: 0px !important;
+  padding: 0px;
+  border: 0px;
+  height: 100%;
+}
+
+.jp-cellfooter .jp-cellfooter-toolbar .jp-Toolbar-item {
+  border-radius: 0px;
+}
+
+.jp-cellfooter .jp-cellfooter-toolbar .jp-cell-footer-toolbar-text {
+  border-radius: 0px;
+  font-size: x-small;
+  color: var(--jp-ui-font-color2);
+  margin-right: 5px;
+}
+
+.jp-cellfooter .jp-cellfooter-toolbar .jp-ToolbarButtonComponent {
+  margin: 0px;
+  color: var(--jp-ui-font-color2);
+  font-size: x-small;
+  line-height: 10px;
+  border-radius: 0px;
+}
+
+.jp-cellfooter .jp-cellfooter-toolbar .jp-ToolbarButtonComponent-label {
+  line-height: 10px;
+}
+
+.jp-cellfooter .jp-cellfooter-toolbar .jp-Toolbar-Icon {
+  width: 21px;
+  height: 21px;
+  line-height: 10px;
+}
+
+.jp-cellfooter .jp-cellfooter-toolbar .jp-Toolbar-Icon > svg {
+  width: 16px;
+  height: 16px;
+  margin: auto;
+}
