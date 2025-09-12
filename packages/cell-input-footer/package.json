@@ -7,9 +7,9 @@
         "jupyterlab",
         "jupyterlab-extension"
     ],
-    "homepage": "https://github.com/Zsailer/jupyterlab-cell-input-footer",
+    "homepage": "https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer",
     "bugs": {
-        "url": "https://github.com/Zsailer/jupyterlab-cell-input-footer/issues"
+        "url": "https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer/issues"
     },
     "license": "BSD-3-Clause",
     "author": {
@@ -18,7 +18,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Zsailer/jupyterlab-cell-input-footer.git"
+        "url": "https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer.git"
     },
     "sideEffects": [
         "style/*.css",
