@@ -2,6 +2,28 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.3.2
+
+([Full Changelog](https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer/compare/jupyterlab-cell-input-footer-extension@0.3.1...e94c69252004bfd1b1b2c0f701f6bbc351cb6062))
+
+### Bugs fixed
+
+- Fix footer alignment on mobile view [#12](https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer/pull/12) ([@jtpio](https://github.com/jtpio))
+- Fix finding cell in other notebooks [#11](https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer/pull/11) ([@jtpio](https://github.com/jtpio))
+
+### Maintenance and upkeep improvements
+
+- Remove `jupyterlab-eventlistener` dependency [#9](https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer/pull/9) ([@jtpio](https://github.com/jtpio))
+- Update links to point to the `jupyter-ai-contrib` org [#8](https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer/pull/8) ([@jtpio](https://github.com/jtpio))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer/graphs/contributors?from=2025-01-08&to=2025-09-16&type=c))
+
+[@jtpio](https://github.com/search?q=repo%3Ajupyter-ai-contrib%2Fjupyterlab-cell-input-footer+involves%3Ajtpio+updated%3A2025-01-08..2025-09-16&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.3.1
 
 ([Full Changelog](https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer/compare/jupyterlab-cell-input-footer-extension@0.3.0...af5574f4d0ffc43091ac1ae28d766cf43992b003))
@@ -15,8 +37,6 @@
 ([GitHub contributors page for this release](https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer/graphs/contributors?from=2025-01-03&to=2025-01-08&type=c))
 
 [@Zsailer](https://github.com/search?q=repo%3AZsailer%2Fjupyterlab-cell-input-footer+involves%3AZsailer+updated%3A2025-01-03..2025-01-08&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.3.0
 
