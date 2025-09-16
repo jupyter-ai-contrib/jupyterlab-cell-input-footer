@@ -61,3 +61,12 @@
   height: 16px;
   margin: auto;
 }
+
+/*-----------------------------------------------------------------------------
+| Mobile
+|----------------------------------------------------------------------------*/
+@media only screen and (width <= 760px) {
+  .jp-cellfooter {
+    margin-left: calc(var(--jp-code-padding) + var(--jp-cell-collapser-width));
+  }
+}
