@@ -33,11 +33,11 @@ export function findCell(
 ): ActiveNotebookCell {
   // First, try the current notebook in focuse
   const currentNotebook = notebookTracker.currentWidget;
-  const cell =
+  let cellMatch =
     notebookTracker.currentWidget?.content._findCellById(cellId)?.cell;
-  if (currentNotebook && cell) {
+  if (currentNotebook && cellMatch) {
     return {
-      cell: cell,
+      cell: cellMatch,
       notebook: currentNotebook
     };
   }
@@ -46,12 +46,13 @@ export function findCell(
   const notebookMatch = notebookTracker.find(notebook => {
     const cell = notebook.content._findCellById(cellId)?.cell;
     if (cell) {
+      cellMatch = cell;
       return true;
     }
     return false;
   });
   return {
-    cell: cell,
+    cell: cellMatch,
     notebook: notebookMatch
   };
 }
